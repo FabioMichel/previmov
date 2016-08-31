@@ -1,0 +1,22 @@
+---
+title: "Trabalho finanças"
+author: "Fabio Michel"
+date: "22 de agosto de 2016"
+output: pdf_document
+---
+# O referente trabalho visa implementar um modelo de previsão de preços de imóveis para a cidade de pelotas.
+
+# Iremos carregar e instalar pacotes necessários , primeiramente, um outro script que serviu para a análise preliminar.
+
+```{r}
+if (!require("pacman")) install.packages("pacman")
+pacman::p_load(data.table, Metrics, caret)
+
+source("dados_novos.R") #dados salvos na variavel aptos
+```
+
+
+if (!require("pacman")) install.packages("pacman")
+pacman::p_load(data.table, Metrics, caret)
+
+source("dados_novos.R") #dados salvos na variavel aptos
